@@ -10,8 +10,5 @@ public class ConsoleIOLecture {
         float myFloat = 123.456f;
         System.out.printf("My float is %.2f%n", myFloat);
         System.out.println("will this be a new line?");
-            ∑∑∑cjcj
-
-
     }
 }
