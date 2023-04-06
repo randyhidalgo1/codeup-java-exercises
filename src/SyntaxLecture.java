@@ -1,18 +1,6 @@
 public class SyntaxLecture {
     public static void main(String[] args) {
 
-
-
-
-
-
-
-
-
-
-
-
-
         // SYNTAX LECTURE NOTES
         /* Declaring variable
         without initializing
