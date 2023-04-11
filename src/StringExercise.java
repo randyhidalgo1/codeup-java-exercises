@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StringExercise {
 
     public static void main(String[] args) {
@@ -13,5 +15,28 @@ public class StringExercise {
 
 
 
-    }
-}
+                Scanner scanner = new Scanner(System.in);
+                String choice = "y";
+        do {
+                System.out.print("Ask A question: ");
+                String question = scanner.next();
+                String answer;
+
+                if (question == "?") {
+                answer = "Sure";
+                } else if (question == "!") {
+                answer = "Whoa, chill out!";
+                } else if (question == " ") {
+                answer = "Fine. Be that way! ";
+                } else {answer = "Whatever";
+                }
+
+                System.out.println(" " + answer);
+
+                System.out.print("Do you want to ask another question? (y/n): ");
+                choice = scanner.next();
+                } while (choice.equalsIgnoreCase("y"));
+
+                scanner.close();
+                }
+                }
