@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class MethodsExercises {
     public static void main(String[] args) {
-        System.out.println(addition(1, 20));
+        System.out.printf("Addition => %d%n", addition(1, 20));
         System.out.println(subtraction(10, 5));
         System.out.println(multiplication(3, 2));
         System.out.println(division(0, 30));
@@ -56,12 +56,11 @@ public class MethodsExercises {
 //        }
 //        return (fact);
 //    }
+//}
 
     public static int diceRoll() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the number of sides for a pair of dice: ");
-
-
+        System.out.print("Do you want to roll the dice? If so Enter a number of sides for a pair of dice: ");
         int userInput = scanner.nextInt();
         int dice1 = (int) (Math.random() * userInput) + 1;
         int dice2 = (int) (Math.random() * userInput) + 1;
