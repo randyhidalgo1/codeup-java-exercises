@@ -1,7 +1,6 @@
 package util;
 
 import java.util.Scanner;
-
 public class Input {
     private final Scanner scanner;
 
@@ -9,7 +8,7 @@ public class Input {
         return scanner;
     }
 
-    public Input() {
+    public Input(Scanner scanner) {
         this.scanner = new Scanner(System.in);
     }
 
@@ -78,6 +77,15 @@ public class Input {
             this.scanner.next();
         }
         return this.scanner.nextDouble();
+    }
+
+    public static void main(String[] args) {
+        Input input = new Input(new Scanner(System.in));
+        System.out.println(input.yesNo("yes or no?"));
+        String s = "Enter a number between 1 and 10";
+        System.out.println(input.getInt(1, 10, s));
+        String t = "Enter a number between 1.0 and 10.0";
+        System.out.println(input.getDouble(1.0, 10.0, t));
     }
 }
 
