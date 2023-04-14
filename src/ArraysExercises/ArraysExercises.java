@@ -16,7 +16,7 @@ public static Person [] addPerson(Person [] people, Person person) {
         for (Person person : people) {
             System.out.println(person.getName());
         }
-        Person person = new Person("Sally");
+        Person person = new Person("Donna");
         Person [] newPeople = addPerson(people, person);
         for (Person newPerson : newPeople) {
             System.out.println(newPerson.getName());
