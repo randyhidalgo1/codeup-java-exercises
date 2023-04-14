@@ -7,7 +7,7 @@ public class CircleApp {
     private static int totalCircles = 0;
 
     public static void main(String[] args) {
-        Input input = new Input(new Scanner(System.in));
+        Input input = new Input();
         boolean anotherCircle;
 
         do {
