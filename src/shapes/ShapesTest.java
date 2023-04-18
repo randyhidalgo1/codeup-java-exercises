@@ -7,18 +7,10 @@ public class ShapesTest extends Rectangle{
     public static void main(String[] args) {
 
         Measurable myShape = new Rectangle(7,8);
-        System.out.println("My Rectangle size: " + myShape.getPerimeter() + " Area: " + myShape.getArea());
+        System.out.println("My Rectangle perimeter: " + myShape.getPerimeter() + " Area: " + myShape.getArea());
 
-        Measurable myShape1 = new Square(3,5);
-        System.out.println("My Square size: " + myShape1.getPerimeter() + " Area: " + myShape1.getArea());
-
-//java: cannot find symbol
-//  symbol:   method getlength()
-//  location: variable myShape of type shapes.Measurable
-
-
-
-
+        Measurable myShape1 = new Square(10,10);
+        System.out.println("My Square perimeter: " + myShape1.getPerimeter() + " Area: " + myShape1.getArea());
 
 
 //        Rectangle box1 = new Rectangle ();
