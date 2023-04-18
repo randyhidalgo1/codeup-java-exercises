@@ -1,6 +1,6 @@
 package shapes;
 
-abstract class ShapesTest extends Rectangle{
+public class ShapesTest extends Rectangle{
     public ShapesTest(double length, double width) {
         super(length, width);
     }
