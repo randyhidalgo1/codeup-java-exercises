@@ -1,7 +1,6 @@
 package PraticeDog;
-
 public interface Companion {
-    String snuggle();
+     String snuggle();
 }
 
 

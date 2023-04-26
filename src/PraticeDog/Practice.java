@@ -1,5 +1,7 @@
 package PraticeDog;
 
+import java.util.ArrayList;
+
 public class Practice {
 
     public static void main(String[] args) {
@@ -16,4 +18,12 @@ public class Practice {
     public static int multiplyAll (int number1, int number2) {
         return number1 * number2;
     }
+    public static ArrayList<Integer> multiplyAll(int factor, ArrayList<Integer> nums) {
+        ArrayList<Integer> result = new ArrayList<>();
+        for (int num : nums) {
+            result.add(num * factor);
+        }
+        return result;
+    }
+
 }
