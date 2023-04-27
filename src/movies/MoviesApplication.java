@@ -20,6 +20,7 @@ public class MoviesApplication {
 }
     private static String menu = """
             Select a number:
+
             0 - exit
             1 - view all movies
             2 - view movies in the animated category

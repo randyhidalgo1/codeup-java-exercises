@@ -10,9 +10,14 @@ public class Practice {
     public static int subtractTen(int number) {
         return number - 10;
     }
-
-    public static int average(int number1, int number2) {
-        return (number1 + number2) / 2;
+    public static double average(int []numbers){
+        int size = numbers.length;
+        double total = 0;
+        for (double num : numbers) {
+            total += num;
+        }
+        total /= size;
+        return total;
     }
 
     public static int multiplyAll (int number1, int number2) {
