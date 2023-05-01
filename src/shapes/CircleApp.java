@@ -1,7 +1,6 @@
 package shapes;
-import java.util.Scanner;
 import static java.lang.System.out;
-import util.Input;
+import Input;
 
 public class CircleApp {
     private static int totalCircles = 0;

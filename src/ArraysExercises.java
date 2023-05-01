@@ -1,8 +1,6 @@
-package ArraysExercises;
-
 public class ArraysExercises {
-public static Person [] addPerson(Person [] people, Person person) {
-    Person [] newPeople = new Person[people.length + 1];
+public static Person[] addPerson(Person[] people, Person person) {
+    Person[] newPeople = new Person[people.length + 1];
     System.arraycopy(people, 0, newPeople, 0, people.length);
     newPeople[newPeople.length - 1] = person;
     return newPeople;
@@ -17,7 +15,7 @@ public static Person [] addPerson(Person [] people, Person person) {
             System.out.println(person.getName());
         }
         Person person = new Person("Donna");
-        Person [] newPeople = addPerson(people, person);
+        Person[] newPeople = addPerson(people, person);
         for (Person newPerson : newPeople) {
             System.out.println(newPerson.getName());
         }

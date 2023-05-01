@@ -1,5 +1,5 @@
 package movies;
-import util.Input;
+import Input;
 import java.util.Arrays;
 
 public class MoviesApplication {

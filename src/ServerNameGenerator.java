@@ -1,4 +1,3 @@
-package ServerNameGenerator;
 import java.util.Random;
 public class ServerNameGenerator {
     public static void main(String[] args) {
